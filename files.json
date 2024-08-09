@@ -1,0 +1,40 @@
+{
+    "root": [
+        {
+            "display": "Île d'Angmar",
+            "filename": "angmar",
+            "id": 1,
+            "keywords": ["Angmar", "Ile", "Ile d'angmar", "contrées"]
+        },
+        {
+            "display": "Empire du Cattar",
+            "filename": "cattar",
+            "id": 2,
+            "keywords": ["Empire", "Cattar", "Empire du Cattar", "contrées"]
+        },
+        {
+            "display": "Comté de Sanddalgi",
+            "filename": "sanddalgi",
+            "id": 3,
+            "keywords": ["Compté de Sanddalgi", "comté", "sanddalgi", "contrées"]
+        },
+        {
+            "display": "Duché de Gnark",
+            "filename": "gnark",
+            "id": 4,
+            "keywords": ["Duché de Gnark", "duché", "gnark", "contrées"]
+        },
+        {
+            "display": "Baronnie de Torevadore",
+            "filename": "torevadore",
+            "id": 5,
+            "keywords": ["baronnie de torevadore", "baronnie", "torevadore", "contrées"]
+        },
+        {
+            "display": "Compté d'Ulvefjord",
+            "filename": "ulvefjord",
+            "id": 6,
+            "keywords": ["Comté d'Ulvefjord", "comté", "ulvefjord", "contrées"]
+        }
+    ]
+}

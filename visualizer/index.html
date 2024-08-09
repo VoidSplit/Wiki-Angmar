@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../page.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init({
+            publicKey: "1o0Qgb7rKarEiVTu4",
+          });
+       })();
+    </script>
+</head>
+<body>
+    <div class="page_wrapper" id="page_wrapper">
+        
+    </div>
+    <form class="sidebar">
+        <div class="labeled_input">
+            <label for="import">Importer une page</label>
+            <input type="file" name="" id="import">
+        </div>
+        <div class="labeled_input">
+            <label for="banner_input">Bannière</label>
+            <input type="text" id="banner_input" placeholder="https://mon-image.jpg">
+        </div>
+
+        <div class="labeled_input">
+            <label for="content">Content</label>
+            <textarea name="content" id="text_area"></textarea>
+        </div>
+
+        <button onclick="download()">Sauvegarder</button>
+    </form>
+</body>
+</html>

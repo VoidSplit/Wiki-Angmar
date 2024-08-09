@@ -1,0 +1,22 @@
+{
+    "banner": "https://cdn.discordapp.com/attachments/1005839604005482516/1241822046678286436/2024-05-19_20.36.54.png?ex=66b5b927&is=66b467a7&hm=197a3f35ef881393dd7d88f07eb66cda1dcc5f84459f7736b8db367c3d5a7c32&",
+    "content": [
+        ["#", "Empire du Cattar"],
+        ["box", "Le wiki est en cours de création et est mis à jour régulierement."],
+        ["##", "Sommaire"],
+        ["summary"],
+        ["##", "Histoire"],
+        ["###", "Origines"],
+        ["p", ""],
+        ["p", ""],
+        ["##", "Géographie"],
+        ["p", "L'Empire est séparé en 8 pays"],
+        ["p", ""],
+        ["##", "Institutions"],
+        ["##", "Territoires"],
+        ["img", "https://cdn.discordapp.com/attachments/1005839604005482516/1241822046678286436/2024-05-19_20.36.54.png?ex=66b5b927&is=66b467a7&hm=197a3f35ef881393dd7d88f07eb66cda1dcc5f84459f7736b8db367c3d5a7c32&"],
+        ["##", "Symboles"],
+        ["p", "L'Empire du Cattar, composé de huit pays, possède de nombreux symboles qui représentent son identité culturelle. Parmi ces symboles, on retrouve une bannière, un hymne et même un animal emblématique."],
+        ["###", "Bannière"]
+    ]
+}

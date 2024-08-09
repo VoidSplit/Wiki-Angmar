@@ -1,0 +1,65 @@
+body {
+    flex-direction: row;
+    min-height: 100vh;
+    background-color: #333;
+}
+.page_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #191919;
+    box-shadow: #000 0 0 15px;
+    min-height: 100vh;
+    height: 100%;
+}
+.sidebar {
+    width: 500px;
+    height: 100vh;
+    padding: 25px 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.labeled_input {
+    display: flex;
+    flex-direction: column;
+}
+.labeled_input label {
+    font-weight: 500;
+    color: #fff;
+}
+.labeled_input input {
+    height: 40px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #fff;
+    height: 25px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 250px;
+    max-height: 600px;
+    border-radius: 5px;
+    padding: 12px 15px
+}
+
+input[type="submit"] {
+    background-color: #fff;
+    height: 25px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 1rem;
+}
