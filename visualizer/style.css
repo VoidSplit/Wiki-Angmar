@@ -63,3 +63,41 @@ input[type="submit"] {
     margin-top: 25px;
     font-size: 1rem;
 }
+
+.too_small {
+    background-color: #111;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.too_small span {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .too_small {
+        display: flex;
+    }
+    body {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .too_small h1 {
+        font-weight: 900;
+        font-size: 2em;
+    }
+    .too_small span {
+        font-weight: 500;
+        font-size: 1em;
+    }
+}
