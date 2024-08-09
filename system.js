@@ -34,18 +34,10 @@ const create_suggestions_dom = (value, infos, limit=5) => {
 
             let item_data = data.filter(el => el.filename == val)[0]
 
-            let item = document.createElement('div')
+            let item = document.createElement('a')
             item.classList.add('item')
-            item.setAttribute('tabindex', "0")
+            item.setAttribute('href', `./page.html?id=${item_data.id}`)
             item.textContent = item_data.display
-    
-            item.addEventListener('click', (e) => {
-                e.preventDefault
-                let url = new URL(window.location);
-                url.pathname = "./page.html"
-                url.searchParams.set('id', item_data.id);
-                window.location = url
-            })
 
             item_list.appendChild(item)
         } else {

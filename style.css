@@ -57,6 +57,10 @@ body {
     flex-direction: column;
     border-radius: 5px;
 }
+.search_bar #suggestions a {
+    color: #000;
+    text-decoration: none;
+}
 .search_bar #suggestions .label:not(.visible) {
     display: none;
 }
