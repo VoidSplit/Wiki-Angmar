@@ -65,7 +65,7 @@ main {
 h1 {
     font-weight: 900;
     font-size: 3em;
-    height: 3rem;
+    min-height: 3rem;
     display: flex;
     align-items: center;
 }
@@ -73,7 +73,7 @@ h1 {
 h2 {
     font-weight: 600;
     font-size: 1.9em;
-    height: 3rem;
+    min-height: 3rem;
     display: flex;
     align-items: center;
 }
@@ -81,7 +81,7 @@ h2 {
 h3 {
     font-weight: 600;
     font-size: 1.6em;
-    height: 3rem;
+    min-height: 3rem;
     display: flex;
     align-items: center;
 }
@@ -89,7 +89,7 @@ h3 {
 h4 {
     font-weight: 500;
     font-size: 1.4em;
-    height: 3rem;
+    min-height: 3rem;
     display: flex;
     align-items: center;
 }
@@ -209,4 +209,28 @@ main .img span {
 
 .download:hover {
     box-shadow: #a2a2a2 0px 0px;
+}
+@media screen and (max-width: 500px) {
+    h1 {
+        font-weight: 900;
+        font-size: 2em;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    
+    h4 {
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+    p {
+        font-size: .95rem;
+    }
 }

@@ -14,14 +14,19 @@ html {
     background-color: #111;
 }
 body {
+    --document-width: 450px;
+
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 20px;
 }
 .center {
     height: 350px;
+    max-width: var(--document-width);
+    width: 100%;
 }
 .search_bar {
     --item_height: 40px;
@@ -36,7 +41,8 @@ body {
     display: flex;
     
     height: 60px;
-    width: 450px;
+    max-width: var(--document-width);
+    width: 100%;
 }
 .search_bar input {
     height: 100%;
@@ -119,9 +125,11 @@ body {
 }
 
 .sublinks {
-    width: 450px;
+    max-width: var(--document-width);
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 }
 
 button, .btn {
@@ -137,8 +145,15 @@ button, .btn {
     text-decoration: none;
     transition: box-shadow .3s ease;
     border: 2px solid black;
+    text-overflow: nowrap;
+    text-align: center;
 }
 
 button:hover, .btn:hover {
     box-shadow: #a2a2a2 0px 0px;
+}
+@media screen and (max-width: 410px) {
+    .sublinks {
+        flex-direction: column;
+    }
 }
