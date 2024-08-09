@@ -42,7 +42,7 @@ const create_suggestions_dom = (value, infos, limit=5) => {
             item.addEventListener('click', (e) => {
                 e.preventDefault
                 let url = new URL(window.location);
-                url.pathname = "/page.html"
+                url.pathname = "./page.html"
                 url.searchParams.set('id', item_data.id);
                 window.location = url
             })
