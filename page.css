@@ -11,6 +11,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-margin: 140px;
 }
 body {
     min-height: 100vh;
@@ -92,6 +93,10 @@ h4 {
     min-height: 3rem;
     display: flex;
     align-items: center;
+}
+a {
+    
+    scroll-margin-top: 110px
 }
 
 .box {
@@ -211,6 +216,9 @@ main .img span {
     box-shadow: #a2a2a2 0px 0px;
 }
 @media screen and (max-width: 500px) {
+    .banner {
+        margin-bottom: 25px;
+    }
     h1 {
         font-weight: 900;
         font-size: 2em;
